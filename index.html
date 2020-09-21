@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="stylesheet" href="./css/styles.css" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Trabalho Prático 1</title>
+  </head>
+  <body>
+    <main>
+      <h1>Color Picker</h1>
+      <form action="#">
+        <div class="field-group">
+          <label for="red">(R) Red</label>
+          <input type="range" name="red" min="0" max="255" id="red" value="0" />
+          <input type="text" id="redValue" disabled value="0" />
+        </div>
+        <div class="field-group">
+          <label for="red">(G) Green</label>
+          <input
+            type="range"
+            name="green"
+            min="0"
+            max="255"
+            id="green"
+            value="0"
+          />
+          <input type="text" id="greenValue" disabled value="0" />
+        </div>
+        <div class="field-group">
+          <label for="red">(B) Blue</label>
+          <input
+            type="range"
+            name="blue"
+            min="0"
+            max="255"
+            id="blue"
+            value="0"
+          />
+          <input type="text" id="blueValue" disabled value="0" />
+        </div>
+      </form>
+    </main>
+
+    <script src="./js/script.js"></script>
+  </body>
+</html>

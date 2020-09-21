@@ -1,0 +1,28 @@
+body {
+  background-color: rgb(0, 0, 0);
+  display: flex;
+}
+
+main {
+  width: 80vw;
+  background-color: white;
+  align-items: center;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+}
+
+main form {
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+
+.field-group {
+  margin: 10px auto;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+}
